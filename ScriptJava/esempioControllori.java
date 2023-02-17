@@ -6,7 +6,7 @@ public class esempioControllori {
             Scanner scelta = new Scanner(System.in);                                          //oggetto scanner per cosa eseguire
 
             System.out.println("Quale operazione vuoi fare? (calcolatrice o calendario)");  //richiesta operazione
-            String scDaEseguire = scelta.nextLine();                                          //inserimento operazione da fare
+            String scDaEseguire = scelta.nextLine();                                           //inserimento operazione da fare
 
             if(scDaEseguire.equals("calcolatrice")){                                 //controlla se è calcoaltrice
                 calcolatrice();
