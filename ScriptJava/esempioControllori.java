@@ -9,7 +9,7 @@ public class esempioControllori {
             String scDaEseguire = scelta.nextLine();                                           //inserimento operazione da fare
 
             if(scDaEseguire.equals("calcolatrice")){                                 //controlla se è calcoaltrice
-                calcolatrice();
+                calcolatrice(); 
             }
             else if (scDaEseguire.equals("calendario")){                             //se non è calcolatrice controlla se è calendario
 
