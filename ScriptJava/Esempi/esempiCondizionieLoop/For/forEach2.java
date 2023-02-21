@@ -1,15 +1,12 @@
 public class forEach2 {
-    
-    public static void main(String[] args){
 
-        boolean[] valori = {true, false, true, true};
-        
-        
-        for(boolean i : valori){
-            System.out.print(" " + i + " ");
+    public static void main(String[] args) {
+
+        boolean[] valori = { true, false, true, true }; // dichiarazione array booleani
+
+        for (boolean i : valori) { // ciclo for per scorrimento booleani
+            System.out.print(" " + i + " "); // stampa booleano
         }
-
-        
 
     }
 
