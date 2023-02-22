@@ -94,12 +94,56 @@ public class inserimentoConArrayList {
                             System.out.println("Inserisci la tua età");
                             eta = age.nextLine();
 
-                            data1.remove(0);
-                            data1.remove(1);
                             data1.remove(2);
+                            data1.remove(1);
+                            data1.remove(0);
                             data1.add(nome);
                             data1.add(password);
                             data1.add(eta);
+
+                        }
+                    } else if (nomeDaModificare.equals(data2.get(0))) {
+                        System.out.println("Inserisci la password");
+                        passPerModifica = passwordModify.nextLine();
+
+                        if (passPerModifica.equals(data2.get(1))) {
+
+                            System.out.println("Inserisci i nuovi dati");
+                            System.out.println("Inserisci il tuo nome");
+                            nome = name.nextLine();
+                            System.out.println("Inserisci la password");
+                            password = pw.nextLine();
+                            System.out.println("Inserisci la tua età");
+                            eta = age.nextLine();
+
+                            data2.remove(2);
+                            data2.remove(1);
+                            data2.remove(0);
+                            data2.add(nome);
+                            data2.add(password);
+                            data2.add(eta);
+
+                        }
+                    } else if (nomeDaModificare.equals(data3.get(0))) {
+                        System.out.println("Inserisci la password");
+                        passPerModifica = passwordModify.nextLine();
+
+                        if (passPerModifica.equals(data3.get(1))) {
+
+                            System.out.println("Inserisci i nuovi dati");
+                            System.out.println("Inserisci il tuo nome");
+                            nome = name.nextLine();
+                            System.out.println("Inserisci la password");
+                            password = pw.nextLine();
+                            System.out.println("Inserisci la tua età");
+                            eta = age.nextLine();
+
+                            data3.remove(2);
+                            data3.remove(1);
+                            data3.remove(0);
+                            data3.add(nome);
+                            data3.add(password);
+                            data3.add(eta);
 
                         }
                     }
