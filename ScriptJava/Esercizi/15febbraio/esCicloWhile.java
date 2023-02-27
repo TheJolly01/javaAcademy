@@ -32,7 +32,7 @@ public class esCicloWhile {
         String[] nuovaStringa =stringaAdd.split("a");
         System.out.println("La tua stringa ora è: " + Arrays.toString(nuovaStringa));
 
-
+        numero2.close();
 
 
     }
