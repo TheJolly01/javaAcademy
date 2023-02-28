@@ -9,3 +9,6 @@ Nella cartella ScriptJava si troveranno tutti gli esercizi svolti in Java.
 
 ## diagrammiER
 Nella cartella diagrammiER sono presenti tutti i diagrammiER svolti durante l'Academy.
+
+## ScriptHTML
+Nella cartella ScriptHTML si troveranno tutti gli esercizi svolti in HTML e CSS.
