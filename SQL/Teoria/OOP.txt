@@ -1,0 +1,24 @@
+
+L'OOP è un paradigma di programmazione che permette di definire oggetti che possono interagire tra loro 
+scambiandosi messaggi. 
+Si possono definire relazioni di interdipendenza tra concetti da modellare secondo: 
+uso		
+contenimento
+specializzazione
+
+
+ISOLAMENTO FUNZIONALE - Ogni blocco di codice singolo dev'essere indipendente nella sua funzione 
+
+Una classe é un modello astratto per la creazione di un oggetto (BLUEPRINT)
+
+Incapsulamento
+Ereditarietà
+Polimorfismo
+
+ASTRAZIONE - proprietà base quasi data per scontata.
+L'Astrazione è il concetto di slegare il cosa dal come
+
+
+Tipizzazione forte, dobbiamo specificare il tipo
+
+Tipizzazine debole, possiamo non specificare il tipo
