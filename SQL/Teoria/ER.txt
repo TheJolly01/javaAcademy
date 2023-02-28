@@ -1,3 +1,0 @@
-Rombi = Condizioni - va sempre collegato a un rettangolo
-Rettangolo = Azioni
-
