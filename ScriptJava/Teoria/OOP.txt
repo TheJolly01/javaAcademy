@@ -1,19 +1,28 @@
 
+Astrazione : Utilizzo di un determinato metodo senza sapere effettivamente come funziona
+
+
 L'OOP è un paradigma di programmazione che permette di definire oggetti che possono interagire tra loro 
 scambiandosi messaggi. 
 Si possono definire relazioni di interdipendenza tra concetti da modellare secondo: 
-uso		
+uso
 contenimento
 specializzazione
 
 
-ISOLAMENTO FUNZIONALE - Ogni blocco di codice singolo dev'essere indipendente nella sua funzione 
+ISOLAMENTO FUNZIONALE - Ogni blocco di codice singolo dev'essere indipendente nella sua funzione. Rendere le parti di codice più piccole e testabili possibile.
 
 Una classe é un modello astratto per la creazione di un oggetto (BLUEPRINT)
 
 Incapsulamento
+ES. Quando usiamo i metodi
+
 Ereditarietà
-Polimorfismo
+ES. 
+
+Polimorfismo    Capacità di un elemento di trasformarsi
+ES. Casting (Implicito, Esplicito | Widening Casting, Casting Restringente)
+
 
 ASTRAZIONE - proprietà base quasi data per scontata.
 L'Astrazione è il concetto di slegare il cosa dal come
@@ -22,3 +31,23 @@ L'Astrazione è il concetto di slegare il cosa dal come
 Tipizzazione forte, dobbiamo specificare il tipo
 
 Tipizzazine debole, possiamo non specificare il tipo
+
+
+OGGETTI
+
+Un oggetto si crea con la keyword new.
+Un metodo è composto tramite la classe di appartenenza e viene 
+
+
+Static indica quando un metodo o un attributo è della classe e non dell'oggetto
+
+COSTRUTTORE
+UN costruttore è un metodo che serve per la creazione degli oggetti.
+Esistono costruttori con e senza parametri
+
+
+Private
+Public
+Default: fa si che sia visibile solo nel blocco di codice in cui lo abbiamo creato
+
+
