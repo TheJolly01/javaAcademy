@@ -26,8 +26,7 @@ più piccole e testabili possibile.
 
 Una classe é un modello astratto per la creazione di un oggetto (BLUEPRINT)
 
-- Incapsulamento - 
-
+- Incapsulamento
   ES. Quando usiamo i metodi
 
 - Ereditarietà - Creare classi parenti che prendono caratteristiche dalla classe "Madre"
@@ -144,4 +143,10 @@ Si può usare su:
 
 - Metodi - impediscono l'overload e quindi il cambiamento della lista delle variabili utilizzate
 
+----------------------------------------------------------------------------------------------------
+## INCAPSULAMENTO
+Due definizioni collegate ma distinte:
+
+- meccanismo del linguaggio atto a limitare l'accesso diretto agli elementi dell'oggetto
+- costrutto del linguaggio che favorisce l'integrazione dei metodi apropri della classe all'interno della classe stessa
 
