@@ -1,41 +1,6 @@
-import java.lang.Math;
 import java.util.Scanner;
+
 public class Main {
-
-    public static class Utente {
-
-        String nome;
-        int budget;
-
-        public Utente(String nome){
-            this.nome = nome;
-            this.budget = (int)(Math.random() * 100);
-        }
-    }
-
-    public static class Conto {
-
-        int contoTotale;
-        int contoMomentaneo;
-
-
-    }
-
-    public static class Piatto {
-
-        String nome;
-        int prezzo;
-        String tipo;
-
-        public Piatto(String nome, int prezzo, String tipo){
-            this.nome = nome;
-            this.prezzo = prezzo;
-            this.tipo = tipo;
-        }
-
-
-    }
-
 
     public static void main(String[] args){
 
@@ -44,8 +9,8 @@ public class Main {
         Scanner rispPiatti = new Scanner(System.in);
         Utente utente = null;
         String nomeUtente;
-        int rispostaMenu = 0;
-        int rispostaPiatti = 0;
+        int rispostaMenu;
+        int rispostaPiatti;
 
         Piatto piatto1 = new Piatto("Pasta alla carbonara", 15, "Primo");
         Piatto piatto2 = new Piatto("Pasta alla panna", 20, "Primo");
