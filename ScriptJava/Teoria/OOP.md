@@ -81,13 +81,37 @@ Un costruttore è un metodo che serve per la creazione degli oggetti.
 Esistono costruttori con e senza parametri.
 
 ----------------------------------------------------------------------------------------------------
-## MODIFICATORI DI VISIBILITÀ 
+## MODIFICATORI DI ACCESSO 
 
 Definiscono lo scope dell'elemento su cui sono applicate
 
 - Private - Chiunque può accedere a quel dato
 - Public - Solo la classe di appartenenza può accedere a quel dato
 - Default: Fa si che sia visibile solo nel blocco di codice in cui lo abbiamo creato
+
+Usiamo par le classi
+- public 
+- default
+ 
+
+Usiamo per attributi e metodi
+- public
+- private
+- default
+- protected
+
+MODIFICATORI NON DI ACCESSO
+Per le classi usiamo 
+- final
+- abstract
+
+Per attributi metodi e costruttori
+- final
+- static
+- abstract
+- synchronized
+- volatile
+
 
 ----------------------------------------------------------------------------------------------------
 ## ARRAY E ARRAYLIST
@@ -149,4 +173,5 @@ Due definizioni collegate ma distinte:
 
 - meccanismo del linguaggio atto a limitare l'accesso diretto agli elementi dell'oggetto
 - costrutto del linguaggio che favorisce l'integrazione dei metodi apropri della classe all'interno della classe stessa
+
 
