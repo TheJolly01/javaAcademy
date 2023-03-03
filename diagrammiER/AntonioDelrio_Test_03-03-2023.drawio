@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T13:23:42.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" version="20.8.22" etag="rqVGpBLJKtprfkUb2GzP" type="github"><diagram name="Pagina-1" id="kwIrNrT2u23YDIcE095W">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-03T13:34:34.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="DyRUzg8qTaxrZHy1Lxh9" version="20.8.22" type="github">
+  <diagram name="Pagina-1" id="kwIrNrT2u23YDIcE095W">
+    <mxGraphModel dx="913" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CvxgkTZqzCAnGLdIlCSP-1" target="CvxgkTZqzCAnGLdIlCSP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-1" value="Class biblioteca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="10" width="310" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-8" value="ArrayList Libro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-1">
+          <mxGeometry x="40" y="40" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-9" value="ArrayList copieDisponibili" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-1">
+          <mxGeometry x="40" y="70" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-10" value="ArrayList copieInPrestito" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-1">
+          <mxGeometry x="40" y="100" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-11" value="prestaLibro()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-1">
+          <mxGeometry x="10" y="140" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-12" value="restituisciLibro()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-1">
+          <mxGeometry x="10" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-13" value="aggiungiLibro()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-1">
+          <mxGeometry x="10" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-14" value="rimuoviLibro()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-1">
+          <mxGeometry x="10" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-15" value="stampaLibriDisponibili" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-1">
+          <mxGeometry x="120" y="140" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CvxgkTZqzCAnGLdIlCSP-3" target="CvxgkTZqzCAnGLdIlCSP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-3" value="Class Libro" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-5" value="Nome Libro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-3">
+          <mxGeometry x="25" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-6" value="Anno Libro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-3">
+          <mxGeometry x="25" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-7" value="Editore Libro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-3">
+          <mxGeometry x="20" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-25" value="Class Main" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-26" value="Avvia solo il metodo menù" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-25">
+          <mxGeometry x="27.5" y="90" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CvxgkTZqzCAnGLdIlCSP-27" target="CvxgkTZqzCAnGLdIlCSP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-27" value="Class Menù Biblioteca" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CvxgkTZqzCAnGLdIlCSP-29" value="menù()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="CvxgkTZqzCAnGLdIlCSP-27">
+          <mxGeometry x="32.5" y="90" width="135" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
