@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc06be9-a6ed-4dc1-affc-38e7d8586199" name="Changes" comment="" />
+    <list default="true" id="fbbcd694-861e-4682-aaa5-dd17cd15cf72" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +13,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MMQfVl3PQObldg2YHHB0FeM2H5" />
+  <component name="ProjectId" id="2MRzTNlGHANspSszTEtcrMMLez7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,23 +24,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/delri/Documents/PRIVATE/Java Developer Academy/MySQL Connector/mysql-connector-j-8.0.32.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7bc06be9-a6ed-4dc1-affc-38e7d8586199" name="Changes" comment="" />
-      <created>1677575074411</created>
+      <changelist id="fbbcd694-861e-4682-aaa5-dd17cd15cf72" name="Changes" comment="" />
+      <created>1677745190668</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677575074411</updated>
-      <workItem from="1677575075542" duration="62000" />
-      <workItem from="1677668866623" duration="96000" />
-      <workItem from="1677677418382" duration="41000" />
+      <updated>1677745190668</updated>
+      <workItem from="1677745191846" duration="3407000" />
+      <workItem from="1677750622425" duration="1406000" />
     </task>
     <servers />
   </component>

@@ -4,58 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e896db3e-da82-40ee-989d-5656124b0eac" name="Changes" comment="" />
+    <list default="true" id="b6432c6b-03e6-4c59-83d9-30996ce5a905" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MMQnP7Jbn2arfLeUQ0wW6zt86H" />
+  <component name="ProjectId" id="2MN4bpR5d3jHBP7Jlv9KutuToGD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/delri/Documents/GitHub/javaAcademy/ScriptJava/Fibonacci/RicercaFibonacci",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e896db3e-da82-40ee-989d-5656124b0eac" name="Changes" comment="" />
-      <created>1677575138149</created>
+      <changelist id="b6432c6b-03e6-4c59-83d9-30996ce5a905" name="Changes" comment="" />
+      <created>1677594780391</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677575138149</updated>
-      <workItem from="1677575139265" duration="2694000" />
-      <workItem from="1677659512546" duration="1420000" />
-      <workItem from="1677833477270" duration="3797000" />
+      <updated>1677594780391</updated>
+      <workItem from="1677594781592" duration="239000" />
+      <workItem from="1677595035086" duration="414000" />
     </task>
     <servers />
   </component>
