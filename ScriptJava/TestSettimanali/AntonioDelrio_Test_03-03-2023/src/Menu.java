@@ -3,7 +3,7 @@ public class Menu {
 
 
 
-    public void MenuBiblioteca(Biblioteca biblioteca){
+    public boolean MenuBiblioteca(Biblioteca biblioteca){
 
         Scanner rispMenu = new Scanner(System.in);
         int rispostaMenu = 0;
@@ -43,13 +43,15 @@ public class Menu {
 
                 case 6:
                     System.out.println("Arrivederci e grazie");
+                    check = false;
                     break;
 
                 default:
                     System.out.println("Non esiste questa voce nel menù");
-                    check = false;
                     break;
             }
         } while(check);
+
+        return true;
     }
 }
