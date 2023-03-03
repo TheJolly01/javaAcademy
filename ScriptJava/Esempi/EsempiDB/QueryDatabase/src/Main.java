@@ -26,12 +26,10 @@ public class Main {
             Statement stm = myConnection.createStatement();
             ResultSet rs = stm.executeQuery(query);
             while (rs.next()){
-                String tableFormat = String.format("ID: %s | Name: %s | CountryCode: %s | District: %s | Population: %s",
+                String tableFormat = String.format("Name: %s | Language: %s | Percentage: %s ",
                         rs.getString(1),
                         rs.getString(2),
-                        rs.getString(2),
-                        rs.getString(2),
-                        rs.getString(2));
+                        rs.getString(3));
                 System.out.println(tableFormat);
             }
         } catch(Exception e){

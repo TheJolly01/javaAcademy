@@ -1,21 +1,13 @@
-import java.util.List;
-import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Main {
-
-
-
     public static void main(String[] args) {
 
-        Fibonacci mymenu = new Fibonacci(); 
+        MenuFibonacci mymenu = new MenuFibonacci(); //crea oggetto menù
 
-        ConnectionFibonacci connessione = new ConnectionFibonacci("jdbc:mysql://localhost:3306/fibonacci", "root", "root");
+        ConnectionFibonacci connessione = new ConnectionFibonacci("jdbc:mysql://localhost:3306/fibonacci", "root", "root"); //crea oggetto per connessione database
 
-        connessione.CreaConnessione();
+        connessione.CreaConnessione();  //usa metodo CreaConnessione della classe ConnectionFibonacci
 
-        mymenu.MenuFibonacci();
-
+        mymenu.Menu();  //usa metodo Menu della classe MenuFibonacci
     }
-
 }

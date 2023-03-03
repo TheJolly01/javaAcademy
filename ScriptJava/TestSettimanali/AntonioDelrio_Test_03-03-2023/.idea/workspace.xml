@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e896db3e-da82-40ee-989d-5656124b0eac" name="Changes" comment="" />
+    <list default="true" id="c3d32379-65f5-4a7f-b78c-9a6491762610" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,42 +17,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MMQnP7Jbn2arfLeUQ0wW6zt86H" />
+  <component name="ProjectId" id="2MVR11cxXKVvYaPFeIjs3pUWUlp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/delri/Documents/GitHub/javaAcademy/ScriptJava/Fibonacci/RicercaFibonacci",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e896db3e-da82-40ee-989d-5656124b0eac" name="Changes" comment="" />
-      <created>1677575138149</created>
+      <changelist id="c3d32379-65f5-4a7f-b78c-9a6491762610" name="Changes" comment="" />
+      <created>1677850545201</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677575138149</updated>
-      <workItem from="1677575139265" duration="2694000" />
-      <workItem from="1677659512546" duration="1420000" />
-      <workItem from="1677833477270" duration="3797000" />
+      <updated>1677850545201</updated>
+      <workItem from="1677850546675" duration="5669000" />
     </task>
     <servers />
   </component>
