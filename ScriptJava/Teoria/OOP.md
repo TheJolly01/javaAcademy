@@ -174,4 +174,12 @@ Due definizioni collegate ma distinte:
 - meccanismo del linguaggio atto a limitare l'accesso diretto agli elementi dell'oggetto
 - costrutto del linguaggio che favorisce l'integrazione dei metodi apropri della classe all'interno della classe stessa
 
+----------------------------------------------------------------------------------------------------
+## STATIC
 
+Static associa la proprietarietà alla classe e non all'oggetto. Quindi il metodo/variabile sarà di proprietà della classe.
+
+Usato su una classe non permette di creare istante/oggetti ma diventa lei stessa un oggetto unico. 
+Per accedere ad essa non si usa il nome dell'oggetto ma direttamente quello della classe.
+
+----------------------------------------------------------------------------------------------------
