@@ -178,7 +178,7 @@ Tutte e tre le funzioni hanno lo stesso tipo di sintassi e possono essere associ
 I metacaratteri possono essere usati in combo
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
-##IN
+## IN
 
 È un operatore che consente di specificare più valori in una clausola, una scorciatoioa per più condizioni OR
 
@@ -201,12 +201,25 @@ DATE IN BETWEEN
 	'1996-07-01'
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## GROUP BY
+
+Serve per raggruppare righe con lo stesso valore, come ad esempio il codice della nazione in country e quello in city
+
+	SELECT column_name(s)
+	FROM table_name
+	WHERE condition
+	GROUP BY column_name(s)
+	ORDER BY column_name(s);
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
 ## JOIN
 
-(INNER) JOIN - restituisce record con valore in comune
-LEFT (OUTER) JOIN - restituisce tutti i record della tabella di sinistra e i record con valori in comune
-RIGHT (OUTER) JOIN - restituisce tutti i record della tabella di destra e i record con valori in comune
-FULL (OUTER) JOIN - restituisce tutti i record quando è presente una corrispondenza in uno dei due a sinistra o a destra
+- (INNER) JOIN - restituisce record con valore in comune
+- LEFT (OUTER) JOIN - restituisce tutti i record della tabella di sinistra e i record con valori in comune
+- RIGHT (OUTER) JOIN - restituisce tutti i record della tabella di destra e i record con valori in comune
+- FULL (OUTER) JOIN - restituisce tutti i record quando è presente una corrispondenza in uno dei due a sinistra o a destra
+
+Il comando è:
 
 	SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
 	FROM orders
