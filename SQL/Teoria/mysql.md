@@ -1,14 +1,25 @@
--SELECT - serve per selezionare la colonna, unito con DISTINCT serve per restituire solo valori distinti tra loro, mai uguali.
+# TEORIA SQL
+## SELECT 
+
+Serve per selezionare la colonna, unito con DISTINCT serve per restituire solo valori distinti tra loro, mai uguali.
 -----------------------------------------------------------------------------------------------------------------------------------------------
--FROM - serve per indicare database e tabella : FROM database.tabella
+## FROM 
+
+Serve per indicare database e tabella
+
+	FROM database.tabella
+	
 -----------------------------------------------------------------------------------------------------------------------------------------------
-- COMANDO WHERE
+## WHERE
+
 WHERE è una clausola che serve per mettere una condizione in modo da filtrare
-SELECT * FROM world.country
-WHERE Region ='Antarctica'
+
+	SELECT * FROM world.country
+	WHERE Region ='Antarctica'
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
-- OPERATORI in mysql:
+## OPERATORI
+
 	= uguale
 	> maggiore
 	< minore
@@ -17,102 +28,119 @@ WHERE Region ='Antarctica'
 	<> o |= not
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## BETWEEN 
 
-BETWEEN tra un intervallo (BETWEEN 0 and 10)
+Si usa in un intervallo
+
+	(BETWEEN 0 and 10)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## LIKE 
 
-LIKE cerca un eguaglianza parziale o totale specificando il pattern fisso, usando metacarattere % (LIKE 's%').
+Cerca un eguaglianza parziale o totale specificando il pattern fisso, usando metacarattere % (LIKE 's%').
 Ci sono diversi metacaratteri ... es _ qualsiasi carattere singolo.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## IN 
 
-IN er specificare più valori possibili (IN(0,1000)
+Per specificare più valori possibili 
 
------------------------------------------------------------------------------------------------------------------------------------------------
-
-NULL - valore nullo, IS NULL o IS NOT NULL serve per verifare se un campo è null o no.
-
------------------------------------------------------------------------------------------------------------------------------------------------
-
-AND, OR, NOT
-
-AND visualizza il record se tutte le condizioni sono soddisfatte
-OR visualizza il record se almeno una condizione è soddisfatta
-NOT visualizza il record se la condizione NON è soddisfatta
+	(IN(0,1000)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## NULL
 
-ORDER BY - ordinare crescente o decrescente, standard = crescente
-	es. SELECT * FROM world.country
-	    ORDER BY Region, SurfaceArea DESC
-
------------------------------------------------------------------------------------------------------------------------------------------------
-
-INSERT INTO
-serve per inserire nuovi record in una tabella
-	es INSERT INTO table_name(column1,column2, column3)
-	   VALUES (value1, value2, value3)
+Valore nullo, IS NULL o IS NOT NULL serve per verifare se un campo è null o no.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## AND, OR, NOT
 
-COPIA TABELLA:
+- AND visualizza il record se tutte le condizioni sono soddisfatte
+- OR visualizza il record se almeno una condizione è soddisfatta
+- NOT visualizza il record se la condizione NON è soddisfatta
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+## ORDER BY 
+
+Ordinare crescente o decrescente, standard = crescente
+
+	SELECT * FROM world.country
+	ORDER BY Region, SurfaceArea DESC
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+## INSERT INTO
+
+Serve per inserire nuovi record in una tabella
+
+	INSERT INTO table_name(column1,column2, column3)
+	VALUES (value1, value2, value3)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+## COPIA TABELLA:
+
 	CREATE TABLE world.cityPersonal LIKE world.city;	- crea tabella simile alla prima
 	INSERT world.cityPersonal SELECT * FROM world.city;	- inserisce tutti i valori della tabella che gli diciamo
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## UPDATE
 
-UPDATE
-serve per modificare i record esistenti in una tabella
+Serve per modificare i record esistenti in una tabella
+	
 	UPDATE table_name
 	SET column1 = value1
 	WHERE condition
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## DELETE
 
-DELETE
-serve per eliminare i record esistenti in una tabella
+Serve per eliminare i record esistenti in una tabella
+
 	DELETE FROM table_name
 	WHERE condition;
+	
 Questa istruzione va ad eliminare solo i record, la struttura della tabella rimane invariata
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## SELECT TOP
 
-SELECT TOP
-serve per specificare il numero di record da restituire
-	"Non tutti i sistemi di database supportano questa istruzione, in MYSQL supporta LIMI per selezionare un numero limitato di record"
-		SELECT column_name
-		FROM table_name
-		WHERE condition
-		LIMIT number;
+Serve per specificare il numero di record da restituire
+"Non tutti i sistemi di database supportano questa istruzione, in MYSQL supporta LIMI per selezionare un numero limitato di record"
+	
+	SELECT column_name
+	FROM table_name
+	WHERE condition
+	LIMIT number;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## LIMIT
 
-LIMIT
-ci permette di indicare il numero massimo di record da recuperare da un database, questa operazione
+Ci permette di indicare il numero massimo di record da recuperare da un database, questa operazione
 tendenzialmente si esegue per tabelle con un grande numero di record ottimizzando le prestazioni
+
 	SELECT * FROM Customers
 	LIMIT 50;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## ALIAS
 
-ALIAS
-servono per assegnare un nome temporaneo ad un elemento come una tabella, colonna, eisultato ecc
+Servono per assegnare un nome temporaneo ad un elemento come una tabella, colonna, eisultato ecc
+
 Gl ALIAS possono essere utili quando:
-	sono coinvolte più tabelle in una Query
-	vengono usate le funzioni in una Query
-	i nomi delel colonne sono grandi o poco leggibili;
-	due o più coilonne vengono combinate insieme
+- sono coinvolte più tabelle in una Query
+- vengono usate le funzioni in una Query
+- i nomi delel colonne sono grandi o poco leggibili;
+- due o più coilonne vengono combinate insieme
 
-in ALIAS viene usata la parola AS quando andiamo a selezionare o richiamare in SELECT o in FROM l'elemento a cui assegnare il nome
+In ALIAS viene usata la parola AS quando andiamo a selezionare o richiamare in SELECT o in FROM l'elemento a cui assegnare il nome
+
 	SELECT column_name AS aliaa_columnName
 	FROM table_name AS alias_tableName
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## FUNZIONI
 
-FUNZIONI:
-
-MIN() e MAX()
+	MIN() e MAX()
+	
 restituiscono il massimo e il minimo valore
 
 	SELECT MIN(column_name)
@@ -123,55 +151,58 @@ ES pratico: 	SELECT MAX(Price) AS LargestPrice
 			FROM Product;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## COUNT() AVG() SUM()
 
-COUNT() AVG() SUM()
-sono funzioni che eseguono un calcolo restituendo un valore specifico
+Ssono funzioni che eseguono un calcolo restituendo un valore specifico
 
-COUNT() restuisce il numero di record selezionati
-AVG() restituisce il valore medio di una colonna con valori numerici
-SUM() restituisce la somma totale di una colonna con valori numerici
+- COUNT() restuisce il numero di record selezionati
+- AVG() restituisce il valore medio di una colonna con valori numerici
+- SUM() restituisce la somma totale di una colonna con valori numerici
 
 Tutte e tre le funzioni hanno lo stesso tipo di sintassi e possono essere associate a delle condizioni con WHERE
+
 	SELECT SUM(column_name)
 	FROM table_name
 	WHERE condition;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## METACARATTERI
 
-I metacaratteri sono dei caratteri che servono per sostituire uno o più caratteri in una stanza. Vengono utilizzati nelle condizioni come WHERE e sono:
-- % zero o più caratteri	"bl%"= bl, black, blue, blob
-"_" un singolo carattere	"h_o" = hot, hat,hit
-"[]" ogni singolo carattere all'interno delle parentesi	"h[oa]t" = hot e hat
-"^" qualsiasi carattere non compreso tra parentesi		"h[^oa]t" = hit
-"-" qualsiasi carattere all'interno del range specificato	"c[a-b]t" = cat e cbt
+- I metacaratteri sono dei caratteri che servono per sostituire uno o più caratteri in una stanza. Vengono utilizzati nelle condizioni come WHERE e sono:
+- - % zero o più caratteri	"bl%"= bl, black, blue, blob
+- - "_" un singolo carattere	"h_o" = hot, hat,hit
+- - "[]" ogni singolo carattere all'interno delle parentesi	"h[oa]t" = hot e hat
+- - "^" qualsiasi carattere non compreso tra parentesi		"h[^oa]t" = hit
+- - "-" qualsiasi carattere all'interno del range specificato	"c[a-b]t" = cat e cbt
 
 I metacaratteri possono essere usati in combo
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+##IN
 
-IN
+È un operatore che consente di specificare più valori in una clausola, una scorciatoioa per più condizioni OR
 
-è un operatore che consente di specificare più valori in una clausola, una scorciatoioa per più condizioni OR
 	SELECT column_name(s)
 	FROM table_name
 	WHERE column_name IN (value1,value2,...);
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## BETWEEN
 
-BETWEEN
-è un operatore che seleziona valori all'interno di un determinato intervallo, l'operatore è inclusivo, ovver osono inclusi i valori di inizo e fine
+È un operatore che seleziona valori all'interno di un determinato intervallo, l'operatore è inclusivo, ovver osono inclusi i valori di inizo e fine
 
 	SELECT column_name(s)
 	FROM table_name
 	WHERE column_name BETWEEN value1 AND value2;
 
 DATE IN BETWEEN
+
 	#07/01/1996#
 	'1996-07-01'
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## JOIN
 
-JOIN
 (INNER) JOIN - restituisce record con valore in comune
 LEFT (OUTER) JOIN - restituisce tutti i record della tabella di sinistra e i record con valori in comune
 RIGHT (OUTER) JOIN - restituisce tutti i record della tabella di destra e i record con valori in comune
@@ -208,56 +239,55 @@ FULL (OUTER) JOIN - restituisce tutti i record quando è presente una corrispond
 	SELF JOIN table2;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## UNION
 
-UNION
 Viene utilizzato per combinare il result set di risultati distinti di due o più istruzioni. Vanno però rispettate queste condizioni:
 
 -Ogni istruzione SELECT all'interno deve avere lo stesso numero di colonne
 -Le colonne devono inoltre avere tipi di dati simili
 -Le colonne devono inoltre essere nello stesso ordine
 
-SELECT column_name(s) FROM table1
-UNION
-SELECT column_name(s) FROM table2;
+	SELECT column_name(s) FROM table1
+	UNION
+	SELECT column_name(s) FROM table2;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## UNION ALL
 
-UNION ALL
 Identico allo UNION solo che include tutti i valori anche i duplicati
 
-SELECT column_name(s) FROM table1
-UNION ALL
-SELECT column_name(s) FROM table2;
+	SELECT column_name(s) FROM table1
+	UNION ALL
+	SELECT column_name(s) FROM table2;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## HAVING
 
+È una clausola che opera sui raggruppamenti invece che sui campi della tabella
 
-HAVING
-
-è una clausola che opera sui raggruppamenti invece che sui campi della tabella
-
-SELECT column_name(s)
-FROM table_name
-WHERE condition
-GROUP BY column_name(s)
-HAVING condition
-ORDER BY column_name(s);
+	SELECT column_name(s)
+	FROM table_name
+	WHERE condition
+	GROUP BY column_name(s)
+	HAVING condition
+	ORDER BY column_name(s);
 
 Da una condizione al GROUP BY, se vera verrà visualizzato il raggruppamento altrimenti no
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## EXISTS
 
-EXISTS
 viene utilizzato per verificare l'esistenza di qualsiasi recond in una sottoquery, restituisce TRUE se la sottoquery restituisce uno o più record
+
 	SELECT column_name(s)
 	FROM table_name
 	WHERE EXISTS
 	(SELECT column_name FROM table_name WHERE condition);
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## ANY
 
-ANY
 restituisce TRUE se UNO qualsiasi dei valori della sottoquery soddisfa la condizione dell'operazione
 	
 	SELECT column_name(s)
@@ -266,8 +296,8 @@ restituisce TRUE se UNO qualsiasi dei valori della sottoquery soddisfa la condiz
 	(SELECT column_name FROM table_name WHERE condition);
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+## ALL
 
-ALL
 restituisce TRUE se TUTTI i valori della sottoquery soddisfa la condizione dell'operazione
 
 	SELECT column_name(s)
@@ -276,23 +306,26 @@ restituisce TRUE se TUTTI i valori della sottoquery soddisfa la condizione dell'
 	(SELECT column_name FROM table_name WHERE condition);
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
-
-ALL nel SELECT:
+## ALL nel SELECT:
 
 	SELECT ALL column_name(s)
 	FROM table_name
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+## CREATE DATABASE
 
-
-
-
-
-
-
-
-
-
-
-
+	CREATE DATABASE nomedatabase;
 	
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
+## CREATE TABLE
+
+	CREATE TABLE nometabella(
+	columnName1 columnType1,
+	columnName2 columnType2,
+	...
+	PRIMARY KEY (column)
+	FOREIGN KEY(column) REFERENCES otherTable(column)
+	)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
