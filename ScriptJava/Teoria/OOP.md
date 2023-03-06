@@ -26,8 +26,8 @@ più piccole e testabili possibile.
 
 Una classe é un modello astratto per la creazione di un oggetto (BLUEPRINT)
 
-- Incapsulamento
-  ES. Quando usiamo i metodi
+- Incapsulamento - Capacità di far si che il nostro codice non sappia cosa fa
+  ES. Quando usiamo i metodi 
 
 - Ereditarietà - Creare classi parenti che prendono caratteristiche dalla classe "Madre"
 
