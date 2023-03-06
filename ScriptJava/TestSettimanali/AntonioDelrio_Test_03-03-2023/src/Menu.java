@@ -9,49 +9,46 @@ public class Menu {
         int rispostaMenu = 0;
         boolean check = true;
 
-        do{
-            System.out.println("-------BIBLIOTECA COMUNALE-------");
-            System.out.println("[1] AGGIUNGI LIBRO");
-            System.out.println("[2] RIMUOVI LIBRO");
-            System.out.println("[3] VISUALIZZA LIBRI");
-            System.out.println("[4] CHIEDI LIBRO IN PRESTITO");
-            System.out.println("[5] RESTITUISCI LIBRO");
-            System.out.println("[6] ESCI DALLA BIBLIOTECA");
-            rispostaMenu = rispMenu.nextInt();
 
-            switch(rispostaMenu){
+        System.out.println("-------BIBLIOTECA COMUNALE-------");
+        System.out.println("[1] AGGIUNGI LIBRO");
+        System.out.println("[2] RIMUOVI LIBRO");
+        System.out.println("[3] VISUALIZZA LIBRI");
+        System.out.println("[4] CHIEDI LIBRO IN PRESTITO");
+        System.out.println("[5] RESTITUISCI LIBRO");
+        System.out.println("[6] ESCI DALLA BIBLIOTECA");
+        rispostaMenu = rispMenu.nextInt();
 
-                case 1:
-                    biblioteca.aggiungiLibro();
-                    break;
+        switch(rispostaMenu){
 
-                case 2:
-                    biblioteca.rimuoviLibro();
-                    break;
+            case 1:
+                biblioteca.aggiungiLibro();
+                return true;
 
-                case 3:
-                    biblioteca.stampaLibriDisponibili();
-                    break;
+            case 2:
+                biblioteca.rimuoviLibro();
+                return true;
 
-                case 4:
-                    biblioteca.prestaLibro();
-                    break;
+            case 3:
+                biblioteca.stampaLibriDisponibili();
+                return true;
 
-                case 5:
-                    biblioteca.restituisciLibro();
-                    break;
+            case 4:
+                biblioteca.prestaLibro();
+                return true;
 
-                case 6:
-                    System.out.println("Arrivederci e grazie");
-                    check = false;
-                    break;
+            case 5:
+                biblioteca.restituisciLibro();
+                return true;
 
-                default:
-                    System.out.println("Non esiste questa voce nel menù");
-                    break;
-            }
-        } while(check);
+            case 6:
+                System.out.println("Arrivederci e grazie");
+                return false;
 
-        return true;
+
+            default:
+                System.out.println("Non esiste questa voce nel menù");
+                return true;
+        }
     }
 }

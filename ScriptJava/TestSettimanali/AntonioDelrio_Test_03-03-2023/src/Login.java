@@ -5,10 +5,9 @@ public class Login {
     public boolean MenuLogin(ListaAccount listaAccount){
         Scanner logRisp = new Scanner(System.in);
 
-        boolean loginEffetuato = false;
         int loginRisposta = 0;
         boolean check = true;
-        boolean checkSwitch = true;
+        boolean checkSwitch;
         do {
             System.out.println("------ACCEDI O REGISTRATI------");
             System.out.println("[1] ACCESSO NORMALE");
@@ -24,38 +23,30 @@ public class Login {
             }
         } while(check);
 
-        do{
-
         switch(loginRisposta) {
 
             case 1:
-                loginEffetuato = loginUtente(listaAccount);
-                checkSwitch = false;
-                break;
+                checkSwitch = loginUtente(listaAccount);
+                return checkSwitch;
 
             case 2:
-                loginEffetuato = loginAdmin(listaAccount);
-                checkSwitch = false;
-                break;
+                checkSwitch = loginAdmin(listaAccount);
+                return checkSwitch;
 
             case 3:
-                registraUtente(listaAccount);
-                checkSwitch = false;
-                break;
+                checkSwitch = registraUtente(listaAccount);
+                return checkSwitch;
 
             case 4:
-                return false;
+                System.exit(0);
 
             default:
                 System.out.println("Scelta non disponibile");
-                break;
+                return true;
         }
-        } while(checkSwitch);
-
-        return true;
 
     }
-    public void registraUtente(ListaAccount listaAccount){
+    public boolean registraUtente(ListaAccount listaAccount){
 
         Scanner nUtente = new Scanner(System.in);
         Scanner pUtente = new Scanner(System.in);
@@ -86,6 +77,7 @@ public class Login {
 
         listaAccount.listaUtenti.add(utente);
 
+        return true;
     }
     public boolean loginUtente(ListaAccount listaAccount){
         Scanner nUtente = new Scanner(System.in);
@@ -93,7 +85,6 @@ public class Login {
         String nomeUtente;
         String password;
         boolean checkEsistenzaUtente = true;
-        boolean checkEsistenzaPassword = true;
         int j = -1;
 
         System.out.println("Inserisci il tuo nome utente");
@@ -107,21 +98,16 @@ public class Login {
         }
         if (checkEsistenzaUtente) {
             System.out.println("Nome utente non esistente");
-            return false;
+
+            return true;
         }
-
-
-
         System.out.println("Inserisci la tua password");
         password = pUtente.nextLine();
         if (password.equals(listaAccount.listaUtenti.get(j).getPassword())){
-            checkEsistenzaPassword = false;
-        }
-        if(checkEsistenzaPassword){
             return false;
+        }else{
+            return true;
         }
-
-        return true;
     }
     public boolean loginAdmin(ListaAccount listaAccount){
 
@@ -155,7 +141,7 @@ public class Login {
             checkEsistenzaPassword = false;
         }
         if(checkEsistenzaPassword){
-            return false;
+            return true;
         }
         System.out.println("Inserisci il pin Admin");
         int pin = pinAd.nextInt();
@@ -163,9 +149,9 @@ public class Login {
             checkEsistenzaPin = false;
         }
         if(checkEsistenzaPin){
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
 
 
