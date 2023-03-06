@@ -192,6 +192,8 @@ Usato su una classe non permette di creare istante/oggetti ma diventa lei stessa
 Per accedere ad essa non si usa il nome dell'oggetto ma direttamente quello della classe.
 
 ----------------------------------------------------------------------------------------------------
-
+## OVERRIDE
+Funzionalità che consente a una sottoclasse o classe figlia di fornire un'implementazione specifica di un metodo che è già fornito da una delle sue superclassi o classi genitore.
+Quando un metodo in una classe ha lo stesso nome, gli stessi parametri o firma e lo stesso tipo restituito (o sottotipo) di un metodo nella sua superclasse, si dice che il metodo nella sottoclasse sovrascrive il metodo della superclasse -classe.
 
 
