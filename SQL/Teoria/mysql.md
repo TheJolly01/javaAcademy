@@ -342,3 +342,92 @@ restituisce TRUE se TUTTI i valori della sottoquery soddisfa la condizione dell'
 	)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+
+## DATATYPE
+
+- CHAR(size) - stringa grandezza fissa max 255  caratteri
+- VARCHAR - stringa grandezza variabile max 65536 caratteri
+- MEDIUMTEXT - stringa lunga fino a 16777215 caratteri
+- LONGTEXT - stringa lunga fino a 4294967295 caratteri
+- ENUM(val1, val2, val3...) - lista di valori possibili
+- BOOL - valore booleano, 0 false e 1 true
+- INT - valore numerico intero
+- FLOAT - valore numero con virgola mobile
+- DATE - data in formato YYYY-MM-DD
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+## DROP/TRUNCATE TABLE
+
+DROP TABLe ci permette di eliminare un atabella con tutto il suo contenuto
+	
+	DROP TABLE table_name
+
+TRUNCATE TABLE ci permette di eliminare tutti i record di un atabella senza eliminare la tabella
+
+	TRUNCATE TABLE table_name
+	
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+## ALTER TABLE
+
+Permette di aggiungere, eliminare o modificare colonne in una tabella esistente
+- ADD - per aggiungere una colonna
+- DROP COLUMN - per eliminare una colonna
+- MODIFY COLUMN - per modificare una colonna
+
+	ALTER TABLE table_name
+	ADD column_name datatype
+
+È possibile modificare anche i vincoli di una tabella
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+##CONTRAINT
+
+Per ogni colonna si possono specificare dei vincoli sul tipo di dato
+	
+	CREATE TABLE table_name(
+	column1 datatype constraint,
+	....);
+	
+I vincoli più utilizzati sono:
+- NOT NULL - non ci può essere valore NULL
+- UNIQUE - tutti i valori in una colonna sono differenti
+- PRIMARY KEY - identifica in modo univoco ogni riga di una tabella
+- FOREIGN KEY - identifica una chiave esterna
+- CHECK - i valori in una colonna devono soddisfare una condizione
+- DEFAULT - imposta un valore di default
+- CREATE INDEX - crea un index per recuperare dati più velocemente
+
+Esempio di utilizzo:
+
+	CREATE TABLE Person(
+	ID int NOT NULL,
+	LastName varchar(255) NOT NULL
+	First Name varchar(255) NOT NULL,
+	Age int
+	);
+
+	CREATE TABLE Persona(
+	ID Int NOT NULL,
+	LastName varchar(255) NOT NULL,
+	FirstName varchar (255),
+	Age int,
+	UNIQUE(ID));
+
+È possibile indicare più colonne UNIQUE modificando la sintassi indicando il nome del vincolo:
+	
+	CONSTRAINT ctnt_name UNIQUE (ID, LastName)
+
+Per poi elimimare un vincolo bisogna fare:
+
+	ALTER TABLE table_name
+	DROP INDEX ctnt_name;
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+##
+
+
+
