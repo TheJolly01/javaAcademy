@@ -90,26 +90,26 @@ Definiscono lo scope dell'elemento su cui sono applicate
 - Default: Fa si che sia visibile solo nel blocco di codice in cui lo abbiamo creato
 
 Usiamo par le classi
-- public 
-- default
+- public - la classe è accessibile da qualsiasi altra classe
+- default - la classe è accessibile solo dalle classi nello stesso pacchetto. Questo viene usato quando non si specifica un modificatore
  
 
 Usiamo per attributi e metodi
-- public
-- private
-- default
+- public - il codice è accessibile per tutte le classi
+- private - il codice è accessibile solo all'interno della classe o dell'oggetto
+- default - ...
 - protected
 
 MODIFICATORI NON DI ACCESSO
 
 Per le classi usiamo 
-- final
-- abstract
+- final - la classe non può essere ereditata da altre classi
+- abstract - la classe non può essere usata per creare oggetti...
 
 Per attributi metodi e costruttori
-- final
-- static
-- abstract
+- final - attributi e metodi non possono essere sovrascritti/modificati
+- static - attributi e metodi che appartengono alla classe, piuttosto che all'oggetto
+- abstract - può essere usato solo in una classe astratte e può essere...
 - synchronized
 - volatile
 
@@ -175,6 +175,14 @@ Due definizioni collegate ma distinte:
 - meccanismo del linguaggio atto a limitare l'accesso diretto agli elementi dell'oggetto
 - costrutto del linguaggio che favorisce l'integrazione dei metodi apropri della classe all'interno della classe stessa
 
+L'incaplusamento da:
+- Migliore controllo degli attributi e dei metodi di classe
+- Gli attributi di classe possono essere resi di sola lettua o di sola lettura con getter e setter
+- Flessibilità: il programmatore può modificare una parte del codice senza influire sulle altre parti
+- Maggiore sicurezza e mascheramento dei dati
+
+
+
 ----------------------------------------------------------------------------------------------------
 ## STATIC
 
@@ -184,3 +192,6 @@ Usato su una classe non permette di creare istante/oggetti ma diventa lei stessa
 Per accedere ad essa non si usa il nome dell'oggetto ma direttamente quello della classe.
 
 ----------------------------------------------------------------------------------------------------
+
+
+
