@@ -101,6 +101,7 @@ Usiamo per attributi e metodi
 - protected
 
 MODIFICATORI NON DI ACCESSO
+
 Per le classi usiamo 
 - final
 - abstract
