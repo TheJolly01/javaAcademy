@@ -6,7 +6,7 @@ public class MenuFibonacci {
 
 
     // Menu per avvio programma
-    public void Menu() {
+    public static void Menu() {
 
         Scanner nDaTrovare = new Scanner(System.in);   //crea scanner per numero da trovare
         Scanner nSequenza = new Scanner(System.in); //crea scanner per numero sequenza
@@ -24,5 +24,7 @@ public class MenuFibonacci {
         nDaTrovare.close(); //chiude scanner
         nSequenza.close(); //chiude scanner
     }
+
+
 
 }
