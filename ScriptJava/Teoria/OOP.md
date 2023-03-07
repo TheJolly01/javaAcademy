@@ -212,3 +212,11 @@ Ogni classe derivata rappresenta una specializzazione della superclasse, ma ered
 ## OVERRIDING
 
 Sovrascrizione del metodo della superclasse da parte di una classe derivata.
+
+I meotdi privati non possono essere sovrascritti.
+
+Il metodo di override deve avere lo stesso tipo di ritorno.
+
+Da Java 5.0
+
+Non possiamo sovrascrivere il costruttore
