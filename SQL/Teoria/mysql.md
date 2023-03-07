@@ -383,7 +383,7 @@ Permette di aggiungere, eliminare o modificare colonne in una tabella esistente
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-##CONTRAINT
+## CONTRAINT
 
 Per ogni colonna si possono specificare dei vincoli sul tipo di dato
 	
