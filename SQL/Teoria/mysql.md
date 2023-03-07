@@ -428,7 +428,36 @@ Per poi elimimare un vincolo bisogna fare:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-##
+## DATE
+
+- DATE - formato AAAA-MM-DD
+- DATETIME - formato AAAA-MM-GG HH:MI:SS
+- TIMESTAMP - formato AAAA-MM-GG HH:MI:SS
+- YEAR - formato AAAA o YY
+
+È possibile confrontare con operatori di uguaglianza solo DATE senza valori temporali (data, ora e minuto)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+## VIEW
+
+È una tabella virtuale basata sul result-set di una QUERY, contiene righe e colonne come una tabella. I campi di una VIEW sono campi di una o più tabelle presenti nel database
+
+	CREATE VIEW view_name AS
+	SELECT column1, column2, ...
+	FROM table_name
+	WHERE condition;
+	
+Una VIEW mostra sempre dati aggiornati, il database ricrea la VIEW ad ogni QUERY
+
+	CREATE VIEW[Brazil Customers] AS
+	SELECT CustomersName, ContactName
+	FROM Customers
+	WHERE Country = 'Brazil';
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
