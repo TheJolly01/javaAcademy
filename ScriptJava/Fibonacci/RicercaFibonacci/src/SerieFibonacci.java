@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 
-public class Fibonacci {
+public class SerieFibonacci {
 
     //Funzione per trovare numero in base alla sequenza e dire se pari o dispari
-    public static void trovaNumero(ArrayList<Integer> sequenza, int sceltaNumeroUtente) {
+    public void trovaNumero(ArrayList<Integer> sequenza, int sceltaNumeroUtente) {
         boolean b = false;
         int x = 0;
         for (int i = 0; i < sequenza.size(); i++) {
@@ -22,7 +22,7 @@ public class Fibonacci {
     }
 
     // Metodo che crea la sequenza di fibonacci
-    public static ArrayList<Integer> Sequenza(ArrayList<Integer> sequenza, int i) {
+    public ArrayList<Integer> Sequenza(ArrayList<Integer> sequenza, int i) {
 
         if (sequenza.size() == i) {
             return sequenza;
@@ -36,9 +36,8 @@ public class Fibonacci {
         return sequenza;
     }
 
-
     // Funzione che stampa se il numero è presente
-    public static void Risultato(boolean x, int nScelto, int i) {
+    public void Risultato(boolean x, int nScelto, int i) {
         if (!x) {
             System.out.println("Il numero " + nScelto + " non è presente tra questi numeri");
         } else {

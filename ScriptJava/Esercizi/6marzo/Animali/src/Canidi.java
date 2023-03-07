@@ -1,0 +1,57 @@
+import java.util.ArrayList;
+
+public class Canidi extends Animale {
+
+    private ArrayList<String> nome;
+    private int contaAnimali;
+
+
+    // COSTRUTTORE CANIDI
+    public Canidi(){
+        nome = new ArrayList<String>();
+        contaAnimali = 0;
+    }
+
+    public void verso(){
+        System.out.println("Bau bau");
+    }
+
+    // STAMPA Canidi
+    public void stampaCanidi(){
+        System.out.println("I canidi sono " + contaAnimali + ". Ecco i loro nomi:");
+        for(int i = 0; i < nome.size(); i++){
+            System.out.println(nome.get(i));
+        }
+    }
+
+
+    // AGGIUNGI NOME
+    public void addNome(String nome){
+        this.nome.add(nome);
+        contaAnimali++;
+    }
+
+
+
+    // GETTER
+
+    public ArrayList<String> getNome() {
+        return nome;
+    }
+    public int getContaAnimali() {
+        return contaAnimali;
+    }
+
+
+    // SETTER
+
+    public void setNome(ArrayList<String> nome) {
+        this.nome = nome;
+    }
+
+    public void setContaAnimali(int contaAnimali) {
+        this.contaAnimali = contaAnimali;
+    }
+
+
+}
