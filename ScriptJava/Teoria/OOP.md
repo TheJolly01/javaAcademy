@@ -7,7 +7,6 @@ scambiandosi messaggi.
 Si possono definire relazioni di interdipendenza tra concetti da modellare secondo: 
 
 - Uso - devo poter usare i pezzi del mio codice
-  
 
 - Contenimento - devo poter contenere i pezzi del mio codice
   ES. metodi
@@ -18,7 +17,7 @@ Si possono definire relazioni di interdipendenza tra concetti da modellare secon
 ----------------------------------------------------------------------------------------------------
 ## ISOLAMENTO FUNZIONALE
 
-Ogni blocco di codice singolo dev'essere indipendente nella sua funzione. Rendere le parti di codice
+Ogni blocco di codice singolo dev'essere indipendente nella sua funzione. L'isolamento funzionale ha lo scopo di rendere le parti di codice
 più piccole e testabili possibile.
 
 ----------------------------------------------------------------------------------------------------
@@ -26,7 +25,7 @@ più piccole e testabili possibile.
 
 Una classe é un modello astratto per la creazione di un oggetto (BLUEPRINT)
 
-- Incapsulamento - Capacità di far si che il nostro codice non sappia cosa fa
+- Incapsulamento - Capacità del codice di nascondere se stesso alle altre parti del codice - limitare l'accesso agli elementi degli oggetti
   ES. Quando usiamo i metodi 
 
 - Ereditarietà - Creare classi parenti che prendono caratteristiche dalla classe "Madre"
@@ -196,4 +195,20 @@ Per accedere ad essa non si usa il nome dell'oggetto ma direttamente quello dell
 Funzionalità che consente a una sottoclasse o classe figlia di fornire un'implementazione specifica di un metodo che è già fornito da una delle sue superclassi o classi genitore.
 Quando un metodo in una classe ha lo stesso nome, gli stessi parametri o firma e lo stesso tipo restituito (o sottotipo) di un metodo nella sua superclasse, si dice che il metodo nella sottoclasse sovrascrive il metodo della superclasse -classe.
 
+----------------------------------------------------------------------------------------------------
+## EREDITARIETÀ
 
+Permette di poter definire un legame di dipendenza di tipo gerarchico tra classi diverse. Una classe deriva dall'altra se da essa ne eredita il comportamento e le caratteristiche. 
+La classe "figlia"si dice classe derivata
+La classe "padre" si dice classe base o superclasse, e contiene il codice comune a tutte le classi derivate
+
+Ogni classe derivata rappresenta una specializzazione della superclasse, ma eredita da essa i suoi comportamenti. Per ereditare una classe usiamo il comando extend nella creazione di una classe.
+
+    public class Ciao extend Saluti{
+      String ciao;
+    }
+
+----------------------------------------------------------------------------------------------------
+## OVERRIDING
+
+Sovrascrizione del metodo della superclasse da parte di una classe derivata.
