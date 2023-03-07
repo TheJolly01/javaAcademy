@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" modified="2023-03-07T14:49:49.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="-hTX_GXzgH8YtAqv-Pya" version="21.0.2" type="github">
+  <diagram name="Pagina-1" id="-_xDtc-30IJHT-tmNGGi">
+    <mxGraphModel dx="1990" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dY_iE4NOw3wJJkVH9V40-1" target="dY_iE4NOw3wJJkVH9V40-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dY_iE4NOw3wJJkVH9V40-1" target="dY_iE4NOw3wJJkVH9V40-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-1" value="Veicolo" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-1" source="dY_iE4NOw3wJJkVH9V40-3" target="dY_iE4NOw3wJJkVH9V40-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-3" value="Marca" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-1">
+          <mxGeometry x="20" y="40" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-1" source="dY_iE4NOw3wJJkVH9V40-5" target="dY_iE4NOw3wJJkVH9V40-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-5" value="Modello" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-1">
+          <mxGeometry x="20" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-1" source="dY_iE4NOw3wJJkVH9V40-6" target="dY_iE4NOw3wJJkVH9V40-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-6" value="Anno di fabbricaz." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-1">
+          <mxGeometry x="20" y="100" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-38" value="getter e setter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-1">
+          <mxGeometry x="166" y="40" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-41" value="getter e setter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-1">
+          <mxGeometry x="166" y="70" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-43" value="getter e setter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-1">
+          <mxGeometry x="160" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-8" value="Auto extends Veicolo" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-8" source="dY_iE4NOw3wJJkVH9V40-14" target="dY_iE4NOw3wJJkVH9V40-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-14" value="Numero porte" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-8">
+          <mxGeometry x="20" y="40" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-8" source="dY_iE4NOw3wJJkVH9V40-15" target="dY_iE4NOw3wJJkVH9V40-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-15" value="Tipo carburante" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-8">
+          <mxGeometry x="20" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-8" source="dY_iE4NOw3wJJkVH9V40-16" target="dY_iE4NOw3wJJkVH9V40-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-16" value="Consumo medio carburante" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-8">
+          <mxGeometry x="20" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-24" value="getter e setter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-8">
+          <mxGeometry x="140" y="40" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-26" value="getter e setter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-8">
+          <mxGeometry x="140" y="70" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-27" value="getter e setter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-8">
+          <mxGeometry x="140" y="105" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-17" value="Moto extends Veicolo" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-17" source="dY_iE4NOw3wJJkVH9V40-18" target="dY_iE4NOw3wJJkVH9V40-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-18" value="Cilindrata" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-17">
+          <mxGeometry x="20" y="40" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-17" source="dY_iE4NOw3wJJkVH9V40-19" target="dY_iE4NOw3wJJkVH9V40-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-19" value="Tipologia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-17">
+          <mxGeometry x="20" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-17" source="dY_iE4NOw3wJJkVH9V40-20" target="dY_iE4NOw3wJJkVH9V40-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-20" value="Potenza" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-17">
+          <mxGeometry x="20" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-32" value="getter e setter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-17">
+          <mxGeometry x="150" y="40" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-33" value="getter e setter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-17">
+          <mxGeometry x="150" y="70" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-34" value="getter e setter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-17">
+          <mxGeometry x="150" y="105" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-47" value="Main" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="530" width="570" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-48" target="dY_iE4NOw3wJJkVH9V40-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-48" value="Crea oggetto Auto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="190" y="44" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-49" target="dY_iE4NOw3wJJkVH9V40-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-49" value="Crea oggetto Moto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="190" y="79" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-53" target="dY_iE4NOw3wJJkVH9V40-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-53" value="MenuSceltaVeicolo()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="200" y="119" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-56" target="dY_iE4NOw3wJJkVH9V40-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-56" target="dY_iE4NOw3wJJkVH9V40-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-56" value="if risp = moto" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="222.5" y="179" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-63" target="dY_iE4NOw3wJJkVH9V40-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-63" value="Richiesta inserimento dati moto:&lt;br&gt;Cilindrata&lt;br&gt;Tipologia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-66" target="dY_iE4NOw3wJJkVH9V40-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-66" value="Scelta potenza moto in base a dati inseriti" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="320" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-69" target="dY_iE4NOw3wJJkVH9V40-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-69" value="else if risp = auto" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="60" y="230" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-73" target="dY_iE4NOw3wJJkVH9V40-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-73" value="Richiesta inserimento dati auto:&lt;br&gt;nPorte&lt;br&gt;Tipo carburante" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="52.5" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dY_iE4NOw3wJJkVH9V40-47" source="dY_iE4NOw3wJJkVH9V40-75" target="dY_iE4NOw3wJJkVH9V40-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-75" value="Scelta consumo auto in base a dati inseriti" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="52.5" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dY_iE4NOw3wJJkVH9V40-78" value="Stampa dati veicolo creato" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dY_iE4NOw3wJJkVH9V40-47">
+          <mxGeometry x="215" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
