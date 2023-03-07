@@ -2,6 +2,7 @@
 ## SELECT 
 
 Serve per selezionare la colonna, unito con DISTINCT serve per restituire solo valori distinti tra loro, mai uguali.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ## FROM 
 
