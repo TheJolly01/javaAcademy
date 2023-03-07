@@ -454,6 +454,10 @@ Una VIEW mostra sempre dati aggiornati, il database ricrea la VIEW ad ogni QUERY
 	SELECT CustomersName, ContactName
 	FROM Customers
 	WHERE Country = 'Brazil';
+	
+Per eliminare una view 
+
+	DROP VIEW view_name;
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
