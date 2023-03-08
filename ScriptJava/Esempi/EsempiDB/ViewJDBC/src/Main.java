@@ -39,17 +39,17 @@ public class Main {
             int risposta = 0;
             boolean check = false;
             do {
+                check = false;
                 risposta = inputInt("Vuoi aggiungere una città?\n[1]SI\n[2]NO");
                 if(risposta == 1) {
                     String city = inputString("Inserisci il nome della città");
                     String district = inputString("Inserisci la regione");
+                    String countryCode = inputString("Inserisci il Country Code");
                     rs.beforeFirst();
                     while(rs.next()){
-                        check = false;
                         if(city.equals(rs.getString("Name"))){
-                            rs.beforeFirst();
-                            while(rs.next()) {
-                                if (district.equals(rs.getString("District"))) {
+                            if (district.equals(rs.getString("District"))) {
+                                if(countryCode.equals(rs.getString("CountryCode"))){
                                     check = true;
                                     rs.last();
                                     System.out.println("Città già esistente");
@@ -60,7 +60,7 @@ public class Main {
                     if(!check) {
                         rs.moveToInsertRow();
                         rs.updateString("Name", city);
-                        String countryCode = inputString("Inserisci il country Code");
+
                         rs.updateString("CountryCode", countryCode);
                         rs.updateString("District", district);
                         int popolazione = inputInt("Inserisci la popolazione");
