@@ -1,4 +1,6 @@
 import java.sql.*;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args){
@@ -20,8 +22,8 @@ public class Main {
                 System.out.println("Connessione riuscita");
             }
             //Prova lettura DB
-            String query = "SELECT * FROM city_view";
-            Statement stmt = myConnection.createStatement();
+            String query = "SELECT * FROM city";
+            Statement stmt = myConnection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
             ResultSet rs = stmt.executeQuery(query);
             ResultSetMetaData rsMd = rs.getMetaData();
 
@@ -34,9 +36,56 @@ public class Main {
                 }
                 System.out.println("\n------------------------------------------------------------------------------------------------");
             }
+            int risposta = 0;
+            boolean check = false;
+            do {
+                risposta = inputInt("Vuoi aggiungere una città?\n[1]SI\n[2]NO");
+                if(risposta == 1) {
+                    String city = inputString("Inserisci il nome della città");
+                    String district = inputString("Inserisci la regione");
+                    rs.beforeFirst();
+                    while(rs.next()){
+                        check = false;
+                        if(city.equals(rs.getString("Name"))){
+                            rs.beforeFirst();
+                            while(rs.next()) {
+                                if (district.equals(rs.getString("District"))) {
+                                    check = true;
+                                    rs.last();
+                                    System.out.println("Città già esistente");
+                                }
+                            }
+                        }
+                    }
+                    if(!check) {
+                        rs.moveToInsertRow();
+                        rs.updateString("Name", city);
+                        String countryCode = inputString("Inserisci il country Code");
+                        rs.updateString("CountryCode", countryCode);
+                        rs.updateString("District", district);
+                        int popolazione = inputInt("Inserisci la popolazione");
+                        rs.updateInt("Population", popolazione);
+                        rs.insertRow();
+                    }
+                }else if(risposta < 1 || risposta > 2);
+            }while (risposta != 2);
+
 
         } catch(Exception e){
             e.printStackTrace();
         }
     }
+
+    public static int inputInt(String inputMessage) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(inputMessage);
+        return sc.nextInt();
+    }
+
+    public static String inputString(String inputMessage) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(inputMessage);
+        return sc.nextLine();
+    }
+
 }
