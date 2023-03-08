@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a082723-850a-4699-8133-5a439329e2fa" name="Changes" comment="" />
+    <list default="true" id="56c07859-38e4-49fa-a5dd-f9170436725d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MgqZqGfv2z2mmkYYS4I2sVYtsr" />
+  <component name="ProjectId" id="2Mj64Mo252edjrwHuc1ifTQIDpE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,24 +30,28 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/delri/Documents/PRIVATE/Java Developer Academy/MySQL Connector/mysql-connector-j-8.0.32.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a082723-850a-4699-8133-5a439329e2fa" name="Changes" comment="" />
-      <created>1678199631766</created>
+      <changelist id="56c07859-38e4-49fa-a5dd-f9170436725d" name="Changes" comment="" />
+      <created>1678268452683</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678199631766</updated>
-      <workItem from="1678199632961" duration="4517000" />
-      <workItem from="1678206582519" duration="1698000" />
-      <workItem from="1678268422563" duration="30000" />
+      <updated>1678268452683</updated>
+      <workItem from="1678268454137" duration="773000" />
+      <workItem from="1678269250864" duration="3213000" />
+      <workItem from="1678273164315" duration="1512000" />
     </task>
     <servers />
   </component>
