@@ -221,6 +221,8 @@ Da Java 5.0
 
 Non possiamo sovrascrivere il costruttore
 
+L'overriding, a differenza dell'overloading, si verifica solamente quando una classe viene ereditata da un altra
+
 ----------------------------------------------------------------------------------------------------
 ## POLIMORFISMO
 
