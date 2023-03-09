@@ -220,3 +220,16 @@ Il metodo di override deve avere lo stesso tipo di ritorno.
 Da Java 5.0
 
 Non possiamo sovrascrivere il costruttore
+
+----------------------------------------------------------------------------------------------------
+## POLIMORFISMO
+
+Capacità di un elemento di trasformarsi
+ES. Casting (Implicito, Esplicito | Widening Casting, Casting Restringente)
+
+Il polimorfismo rappresenta il principio in funzione della quale diverse classi derivate possono implementare uno stesso comportamento definito nella classe base in modo differente. (ES. tutti gli animali fanno)
+
+
+
+
+
