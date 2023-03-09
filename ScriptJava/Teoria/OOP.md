@@ -231,6 +231,10 @@ ES. Casting (Implicito, Esplicito | Widening Casting, Casting Restringente)
 
 Il polimorfismo rappresenta il principio in funzione della quale diverse classi derivate possono implementare uno stesso comportamento definito nella classe base in modo differente. (ES. tutti gli animali fanno)
 
+Elementi fondamentali del polimorfismo sono:
+- il polimorfismo in fase di compilazione
+- il linker
+
 ----------------------------------------------------------------------------------------------------
 ## ERRORI ED ECCEZIONI
 
