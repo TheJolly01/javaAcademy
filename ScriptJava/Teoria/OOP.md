@@ -229,7 +229,13 @@ ES. Casting (Implicito, Esplicito | Widening Casting, Casting Restringente)
 
 Il polimorfismo rappresenta il principio in funzione della quale diverse classi derivate possono implementare uno stesso comportamento definito nella classe base in modo differente. (ES. tutti gli animali fanno)
 
+----------------------------------------------------------------------------------------------------
+## ERRORI ED ECCEZIONI
 
+Lo strumento per gestire le eccezioni è il try catch
+
+try: istruzione che consente di definire un blocco di codice da verificare per gli errori durante l'esecuzione
+catch: istruzione che consente di definire
 
 
 
