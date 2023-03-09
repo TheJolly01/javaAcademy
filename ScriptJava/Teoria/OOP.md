@@ -235,7 +235,14 @@ Il polimorfismo rappresenta il principio in funzione della quale diverse classi 
 Lo strumento per gestire le eccezioni è il try catch
 
 try: istruzione che consente di definire un blocco di codice da verificare per gli errori durante l'esecuzione
-catch: istruzione che consente di definire
+catch: istruzione che consente di definire locco di codice in caso di errore
 
+throw: definisce un eccezione per un metodo o un blocco di codice
 
+finally: definisce un blocco di codice che viene eseguito quando esiste un try
 
+----------------------------------------------------------------------------------------------------
+## WRAPPING
+
+Sono delle classi che incapsulano dei tipi convertendo questi tipi ad oggetti.
+Come da int a Integer.
