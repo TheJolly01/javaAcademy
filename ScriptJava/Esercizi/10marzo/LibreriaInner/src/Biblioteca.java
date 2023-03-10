@@ -1,23 +1,26 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 public class Biblioteca {
-    int nLibri;
+    int nLibri = 0;
     class Libro{
         String genere;
         Libro(String genere){
             this.genere = genere;
         }
-
     }
 
-    public void aggiungiLibro(){
-        int risp = inputInt("Vuoi inserire un libro\n[1]SI\n[2]NO");
-        if(risp == 1){
-            String genLibro = inputString("Inserisci il genere del libro");
-            Biblioteca.Libro libro = new Libro(genLibro);
-            nLibri++;
+    public void visualizzaLibri(ArrayList<Biblioteca.Libro> libriDisponibili){
+        for(int i = 0; i < nLibri; i++){
+            System.out.println("[" + i + "]" + libriDisponibili.get(i).genere);
         }
     }
 
+    public Libro aggiungiLibro(){
+            String genLibro = inputString("Inserisci il genere del libro");
+            Biblioteca.Libro libro = new Libro(genLibro);
+            nLibri++;
+            return libro;
+    }
 
     public int inputInt(String inputMessage) {
         Scanner sc = new Scanner(System.in);
