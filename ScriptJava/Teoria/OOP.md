@@ -272,6 +272,7 @@ Gli elementi della classe interna non sono anche della classe esterna ma solo di
         System.out.println(Dentro.y + Fuori.x);
       }
     }
-    
+Possiamo rendere una classe interna private o protected. Se poi provi ad accedere a una classe interna privata da una classe esterna, si verifica un errore;
+
 ----------------------------------------------------------------------------------------------------
 
