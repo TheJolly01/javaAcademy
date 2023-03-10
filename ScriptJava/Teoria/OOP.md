@@ -252,3 +252,26 @@ finally: definisce un blocco di codice che viene eseguito quando esiste un try
 
 Sono delle classi che incapsulano dei tipi convertendo questi tipi ad oggetti.
 Come da int a Integer.
+
+----------------------------------------------------------------------------------------------------
+## INNER CLASS
+Sono classi nidificate, cioè mettere classi dentro un altra classe, rendendo il codice più leggibile. Per accedere alla classe interna, creiamo un oggetto della classe esterna, quindi crea un oggetto della classe interna.
+
+Gli elementi della classe interna non sono anche della classe esterna ma solo di quella interna
+
+    class Classefuori{
+      int x = 10;
+      class Classedentro{
+        int y=10;
+      }
+    }
+    public class Main{
+      public static void main(String[] args){
+        Classefuori fuori = new Classefuori():
+        Classefuori.Classedentro Dentro = Fuori.new Classedentro();
+        System.out.println(Dentro.y + Fuori.x);
+      }
+    }
+    
+----------------------------------------------------------------------------------------------------
+
