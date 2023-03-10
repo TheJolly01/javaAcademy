@@ -275,4 +275,18 @@ Gli elementi della classe interna non sono anche della classe esterna ma solo di
 Possiamo rendere una classe interna private o protected. Se poi provi ad accedere a una classe interna privata da una classe esterna, si verifica un errore;
 
 ----------------------------------------------------------------------------------------------------
+## ASTRAZIONE
 
+Consiste nel presentare il sistema, come un pezzo di codice sorgente o uno scambio di trasmissione di dati, in maniera ridotta ai soli dettagli considerati essenziali a livello specifico.
+
+Indica quanto il codice scritto in un linugaggio di programmazione si distacca dalle istruzioni in linguaggio macchina a cui corrisponde.
+Es. istruzioni scritte in java sono più comprensibili all'uomo che alla macchina. Quindi abbiamo un alto livello di astrazione.
+    invece in assembly abbiamo un basso livello di astrasione.
+    
+*È un concetto o un idea non associata a nessuna istanza specifica*
+
+Può essere ottenuta sia con classi astratte che con interfacce
+
+La parola chiame abstract è un modificatore di non accesso, utilizzato per classi e metodi:
+- Classe astratta: è una classe ristretta che non può essere utilizzata per creare oggetti ( per accedervi deve essere ereditata da un altra classe)
+- Metodo astratto: può essere utilizzato solo in una classe astratta e non ha un corpo. Il corpo è fornito da
