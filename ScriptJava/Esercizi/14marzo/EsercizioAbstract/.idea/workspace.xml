@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b49439-d382-44b1-86d7-29b28a6809e7" name="Changes" comment="" />
+    <list default="true" id="316c0c26-89a7-4892-b684-d708dc81c421" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MpZsSuO1cnf84jvSUzRDICiAfX" />
+  <component name="ProjectId" id="2N0ioqfnbtGrMlsLbtBaKjNcPK8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +30,6 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/delri/Documents/GitHub/javaAcademy/ScriptJava/Fibonacci/RicercaFibonacci",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,13 +40,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4b49439-d382-44b1-86d7-29b28a6809e7" name="Changes" comment="" />
-      <created>1678466690935</created>
+      <changelist id="316c0c26-89a7-4892-b684-d708dc81c421" name="Changes" comment="" />
+      <created>1678807581265</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678466690935</updated>
-      <workItem from="1678466692207" duration="776000" />
-      <workItem from="1678792381095" duration="34000" />
+      <updated>1678807581265</updated>
+      <workItem from="1678807582395" duration="2718000" />
     </task>
     <servers />
   </component>
