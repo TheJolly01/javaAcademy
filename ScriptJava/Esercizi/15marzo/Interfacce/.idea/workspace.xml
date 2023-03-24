@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316c0c26-89a7-4892-b684-d708dc81c421" name="Changes" comment="" />
+    <list default="true" id="6e728422-f9a1-404d-aaca-d690fcec501f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +14,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2N0ioqfnbtGrMlsLbtBaKjNcPK8" />
+  <component name="ProjectId" id="2N3VrBaCmOQ8KYNJ1he8KdKnEMu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,12 +38,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="316c0c26-89a7-4892-b684-d708dc81c421" name="Changes" comment="" />
-      <created>1678807581265</created>
+      <changelist id="6e728422-f9a1-404d-aaca-d690fcec501f" name="Changes" comment="" />
+      <created>1678892948948</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678807581265</updated>
-      <workItem from="1678807582395" duration="2718000" />
+      <updated>1678892948948</updated>
+      <workItem from="1678892950118" duration="475000" />
     </task>
     <servers />
   </component>

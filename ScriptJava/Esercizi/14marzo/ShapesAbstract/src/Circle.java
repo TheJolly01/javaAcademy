@@ -8,7 +8,6 @@ public class Circle extends Shape{
         getPerimeter();
     }
 
-
     @Override
     public void getArea() {
         Area = radius * radius * Math.PI;

@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-
+        
         ShapeManager shapeManager = new ShapeManager();
         int risposta = 0;
         int sceltaForma = 0;
@@ -55,26 +54,14 @@ public class Main {
                 default:
                     System.out.println("Errore, inserimento sbagliato");
                     break;
-
             }
-
-
-
         }while(risposta != 5);
-
-
-
-
-
     }
 
     public static int inputInt(String stringa){
         Scanner scanner = new Scanner(System.in);
         System.out.println(stringa);
         return scanner.nextInt();
-
-
     }
-
 
 }
