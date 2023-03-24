@@ -5,11 +5,14 @@ D.LGS. 81/08 E S.M.I. -> Decreto Legislativo 81 del 2008 e Successive Modifice I
 T.U.S. -> Testo Unico Sicurezza
 
 DPI - Dispositivi di protezione individuale, che devono essere consegnati a titolo gratuito dal datore di lavoro
+DPC - Dispositivi di protezione collettiva,
 
 La legge si occupa di 3 argomenti:
 
 - Pericolo - È una proprietà intrinseca capace di causare un danno alla salute. ES: fuoco, corrente, lame, frullatori, acqua calda ecc. 
 - Rischio - È la probabilità che il pericolo si manifesti. I rischi si classificano in Basso, Medio e Alto.
+- Prevenzione - Es. formazione
+
 
 
 ## DOMANDE
@@ -23,3 +26,14 @@ La legge si occupa di 3 argomenti:
   - A. Un obbligo per il preposto
   - B. La procedura che si deve eseguire per adempiere alle norme previste dalla legge 
   - C. Assenza di rischio non tollerabile - CORRETTA
+
+- La formazione dei lavoratori è obbligatoria:
+  - A. In sede di assunzione, in seguito di cambio di mansione, in seguito all’introduzione in azienda di nuovi rischi/attrezzature/prodotti chimici - CORRETTA
+  - B. Mai
+  - C. Dipende dai casi
+
+- La formazione e la sorveglianza sanitaria sono esempi di:
+  - A. Azioni di prevenzione - CORRETTA
+  - B. Azioni di protezione
+  - C. Azioni di informazione
+
