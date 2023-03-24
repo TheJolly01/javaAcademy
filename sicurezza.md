@@ -69,3 +69,7 @@ La legge si occupa di 3 argomenti:
   -   B. Responsabile dei lavoratori per la sicurezza
   - X C. Rappresentante dei lavoratori per la sicurezza
 
+- Quale è l’organo di vigilanza deputato al controllo nelle aziende:
+  -   A. Prefettura
+  -   B. INPS
+  - X C. ASL
