@@ -8,7 +8,7 @@ DPI - Dispositivi di protezione individuale, che devono essere consegnati a tito
 
 ## DOMANDE
 
-1. Il decreto legislativo, che riunisce insieme tutta la legislazione in tema di salute e sicurezza nei luoghi di lavoro, è:
+- Il decreto legislativo, che riunisce insieme tutta la legislazione in tema di salute e sicurezza nei luoghi di lavoro, è:
   - A. Il D.Lgs. 626/94
   - B. Il D.Lgs. 532/99
   - C. Il D.Lgs 81/08 - CORRETTA
