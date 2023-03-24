@@ -6,6 +6,12 @@ T.U.S. -> Testo Unico Sicurezza
 
 DPI - Dispositivi di protezione individuale, che devono essere consegnati a titolo gratuito dal datore di lavoro
 
+La legge si occupa di 3 argomenti:
+
+- Pericolo - È una proprietà intrinseca capace di causare un danno alla salute. ES: fuoco, corrente, lame, frullatori, acqua calda ecc. 
+- Rischio - È la probabilità che il pericolo si manifesti. I rischi si classificano in Basso, Medio e Alto.
+
+
 ## DOMANDE
 
 - Il decreto legislativo, che riunisce insieme tutta la legislazione in tema di salute e sicurezza nei luoghi di lavoro, è:
@@ -13,3 +19,7 @@ DPI - Dispositivi di protezione individuale, che devono essere consegnati a tito
   - B. Il D.Lgs. 532/99
   - C. Il D.Lgs 81/08 - CORRETTA
 
+- La sicurezza è:
+  - A. Un obbligo per il preposto
+  - B. La procedura che si deve eseguire per adempiere alle norme previste dalla legge 
+  - C. Assenza di rischio non tollerabile - CORRETTA
