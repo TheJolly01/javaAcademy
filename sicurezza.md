@@ -20,6 +20,7 @@ La legge si occupa di 3 argomenti:
 - DL - Datore di lavoro
 - Dirigente
 - RSPP - Responsabile del Servizio di Prevenzione e Protezione
+- RLS - Rappresentante dei lavoratori per la sicurezza
 - PREPOSTO - 
 
 ### DOCUMENTO VALUTAZIONE RISCHI
@@ -29,36 +30,42 @@ La legge si occupa di 3 argomenti:
 ## DOMANDE
 
 - Il decreto legislativo, che riunisce insieme tutta la legislazione in tema di salute e sicurezza nei luoghi di lavoro, è:
-  - A. Il D.Lgs. 626/94
-  - B. Il D.Lgs. 532/99
-  - C. Il D.Lgs 81/08 - CORRETTA
+  -   A. Il D.Lgs. 626/94
+  -   B. Il D.Lgs. 532/99
+  - X C. Il D.Lgs 81/08
 
 - La sicurezza è:
-  - A. Un obbligo per il preposto
-  - B. La procedura che si deve eseguire per adempiere alle norme previste dalla legge 
-  - C. Assenza di rischio non tollerabile - CORRETTA
+  -   A. Un obbligo per il preposto
+  -   B. La procedura che si deve eseguire per adempiere alle norme previste dalla legge 
+  - X C. Assenza di rischio non tollerabile
 
 - La formazione dei lavoratori è obbligatoria:
-  - A. In sede di assunzione, in seguito di cambio di mansione, in seguito all’introduzione in azienda di nuovi rischi/attrezzature/prodotti chimici - CORRETTA
-  - B. Mai
-  - C. Dipende dai casi
+  - X A. In sede di assunzione, in seguito di cambio di mansione, in seguito all’introduzione in azienda di nuovi rischi/attrezzature/prodotti chimici
+  -   B. Mai
+  -   C. Dipende dai casi
 
 - La formazione e la sorveglianza sanitaria sono esempi di:
-  - A. Azioni di prevenzione - CORRETTA
-  - B. Azioni di protezione
-  - C. Azioni di informazione
+  - X A. Azioni di prevenzione
+  -   B. Azioni di protezione
+  -   C. Azioni di informazione
 
 - Tra gli obblighi del datore di lavoro non delegabili vi è quello di:
-  - A. Assolvere ai doveri di addestramento dei lavoratori
-  - B. Sovraintendere al corretto utilizzo dei DPI
-  - C. Eseguire la Valutazione dei Rischi - CORRETTA
+  -   A. Assolvere ai doveri di addestramento dei lavoratori
+  -   B. Sovraintendere al corretto utilizzo dei DPI
+  - X C. Eseguire la Valutazione dei Rischi
 
 - Chi deve redigere il Documento di Valutazione dei Rischi (DVR):
-  - A. Datore di Lavoro - CORRETTA
-  - B. Preposto
-  - C. RSPP
-  - 
+  - X A. Datore di Lavoro
+  -   B. Preposto
+  -   C. RSPP
+
 - RSPP significa:
-  - A. Responsabile Sicurezza Per il Personale
-  - B. Responsabile Servizio Prevenzione e Protezione - CORRETTA
-  - C. Responsabile Sul Processo di Prevenzione
+  -   A. Responsabile Sicurezza Per il Personale
+  - X B. Responsabile Servizio Prevenzione e Protezione
+  -   C. Responsabile Sul Processo di Prevenzione
+
+- RLS significa:
+  -   A. Responsabile dei lavoratori
+  -   B. Responsabile dei lavoratori per la sicurezza
+  - X C. Rappresentante dei lavoratori per la sicurezza
+
